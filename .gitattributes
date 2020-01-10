@@ -1,0 +1,10 @@
+# Basic .gitattributes for a LabVIEW repo
+
+# Source files
+*.lvproj	text
+*.vi	binary
+*.vit	binary
+*.ctl	binary
+*.llb	binary
+
+
