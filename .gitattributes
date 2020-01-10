@@ -5,3 +5,12 @@
 *.llb	linguist-language=LabVIEW
 
 
+# Documentation
+*.htm?	linguist-documentation
+*.txt	linguist-documentation
+*.md	linguest-documentation
+
+# Vendored
+BPIMCore/*	linguist-vendored
+Summitek/*	linguist-vendored
+ITK/*	linguist-vendored
