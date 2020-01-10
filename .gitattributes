@@ -1,10 +1,7 @@
-# Basic .gitattributes for a LabVIEW repo
-
-# Source files
-*.lvproj	text
-*.vi	binary
-*.vit	binary
-*.ctl	binary
-*.llb	binary
+# Source file overrides for GitHub linguist
+*.vi	linguist-language=LabVIEW
+*.vit	linguist-language=LabVIEW
+*.ctl	linguist-language=LabVIEW
+*.llb	linguist-language=LabVIEW
 
 
