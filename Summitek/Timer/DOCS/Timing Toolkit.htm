@@ -1,0 +1,195 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./Timing%20Toolkit_files/filelist.xml">
+<link rel=Edit-Time-Data href="./Timing%20Toolkit_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jim Kring</o:Author>
+  <o:LastAuthor>Jim Kring</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>23</o:TotalTime>
+  <o:Created>2000-02-19T00:28:00Z</o:Created>
+  <o:LastSaved>2000-02-19T02:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>211</o:Words>
+  <o:Characters>1207</o:Characters>
+  <o:Company>Cal-Bay Systems, Inc.</o:Company>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1482</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:24.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1030"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+<title>LabVIEW Timing Toolkit</title></head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+  <p class=MsoTitle>LabVIEW Timing Toolkit<o:p></o:p></p>
+  <p></p>
+  <p class=MsoTitle><o:p> </o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><img width=246 height=129
+src="help_files/Images/Timing%20Pallete.jpg" v:shapes="_x0000_i1025"></p>
+  <p class=MsoNormal><o:p></o:p></p>
+  <p></p>
+  <p class=MsoNormal>You can use the Timer VIs to keep track of the time of running 
+    processes.<span style="mso-spacerun: yes">  </span>You can start, stop, and 
+    reset a timer just as you could a stopwatch.<span style="mso-spacerun:
+yes">  </span>You can get the status of a timer to tell if it is running and what 
+    its time value is.<span style="mso-spacerun: yes">  </span>You can also synchronize 
+    events to occur at specific timer values.</p>
+  <p class=MsoNormal><o:p></o:p></p>
+  <p></p>
+  <p class=MsoNormal>The Timer VIs differ from the Timing VIs in the Time &amp; 
+    Dialogue functions pallet which use the <b>millisecond timer</b> on your computer.<span style="mso-spacerun: yes">  
+    </span>Timing Toolkit VIs allow you to create your own timers and to use them 
+    in more powerful ways.</p>
+  <p class=MsoNormal><o:p></o:p></p>
+  <p></p>
+  <p class=MsoNormal><span style="mso-spacerun: yes"> </span>You can access the
+timer VIs by selecting Functions»Timer.</p>
+
+  <p class=MsoNormal><o:p></o:p></p>
+  <p></p>
+  <p class=MsoNormal>The timer VIs use the Timer RefNum control from the
+Controls»Timer palette.</p>
+
+  <p class=MsoNormal><img width=51 height=60
+src="help_files/Images/Control_Refnum_Timer.jpg" v:shapes="_x0000_i1026"></p>
+
+<p class=MsoNormal>The Timer RefNum can be used with the following VIs.</p>
+
+  <p class=MsoNormal><a href="help_files/Create%20Timer.htm">Create Timer</a> </p>
+
+  <p class=MsoNormal><a href="help_files/Destroy%20Timer.htm">Destroy Timer</a></p>
+
+  <p class=MsoNormal><a href="help_files/Get%20Timer%20Status.htm">Get Timer Status</a> 
+  </p>
+
+  <p class=MsoNormal><a href="help_files/Not%20A%20Timer.htm">Not A Timer</a> </p>
+
+  <p class=MsoNormal><a href="help_files/Reset%20Timer.htm">Reset Timer</a></p>
+
+  <p class=MsoNormal><a href="help_files/Start%20Timer.htm">Start Timer</a></p>
+
+  <p class=MsoNormal><a href="help_files/Stop%20Timer.htm">Stop Timer</a></p>
+
+  <p class=MsoNormal><a href="help_files/Wait%20on%20Timer.htm">Wait on Timer</a></p>
+
+  <p class=MsoNormal><o:p></o:p></p>
+
+  <p class=MsoNormal><o:p></o:p></p>
+  <p></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>LabVIEW™ Timing Toolkit<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>© Copyright 1999<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>Cal-Bay Systems, Inc.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><a
+href="http://www.calbay.com/">http://www.calbay.com</a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'>written by James Kring<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><a
+href="mailto:jkring@calbay.com">jkring@calbay.com</a><o:p></o:p></span></p>
+
+  <p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+  <p></p>
+  <p class=MsoNormal align=center style='text-align:center'>LabVIEW is a
+registered trademark of</p>
+
+<p class=MsoNormal align=center style='text-align:center'>National Instruments
+Corporation.</p>
+
+  <p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
