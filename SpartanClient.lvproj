@@ -18,47 +18,49 @@
 			<Item Name="Spartan Client.ico" Type="Document" URL="../source/Spartan Client.ico"/>
 			<Item Name="Spartan Client.ini" Type="Document" URL="../source/Spartan Client.ini"/>
 			<Item Name="Spartan Client Uninstall" Type="Document" URL="../source/Spartan Client Uninstall"/>
+			<Item Name="Client Download and Print PDF.vi" Type="VI" URL="../source/client.lib/Client Download and Print PDF.vi"/>
 			<Item Name="LVWUtil32.dll" Type="Document" URL="../source/LVWUtil32.dll"/>
-			<Item Name="Spartan Client Version.txt" Type="Document" URL="../../SPARTAN BUILT/www/client/Spartan Client Version.txt"/>
-			<Item Name="Spartan Client.exe" Type="Document" URL="../../SPARTAN BUILT/www/client/Spartan Client.exe"/>
+			<Item Name="Stop Client.ini" Type="Document" URL="../source/Stop Client.ini"/>
+			<Item Name="Stop Client.vi" Type="VI" URL="../source/Stop Client.vi"/>
+			<Item Name="Spartan Client EULA.rtf" Type="Document" URL="../source/Spartan Client EULA.rtf"/>
 		</Item>
 		<Item Name="drivers" Type="Folder">
 			<Item Name="PIM" Type="Folder">
 				<Item Name="Kaelus" Type="Folder">
-					<Item Name="Kaelus PIM Release Notes.txt" Type="Document" URL="../www/drivers/PIM/Kaelus/Kaelus PIM Release Notes.txt"/>
+					<Item Name="Kaelus PIM Release Notes.txt" Type="Document" URL="../source/drivers/PIM/Kaelus/Kaelus PIM Release Notes.txt"/>
 					<Item Name="Kaelus PIM.vit" Type="VI" URL="../source/drivers/PIM/Kaelus/Kaelus PIM.vit"/>
 					<Item Name="Kaelus PIM Config.vit" Type="VI" URL="../source/drivers/PIM/Kaelus/Kaelus PIM Config.vit"/>
 					<Item Name="Kaelus PIM PIMHW Connection Daemon.vi" Type="VI" URL="../source/drivers/PIM/Kaelus/LIB/Kaelus PIM PIMHW Connection Daemon.vi"/>
 					<Item Name="Kaelus PIM Version.vi" Type="VI" URL="../source/drivers/PIM/Kaelus/LIB/Kaelus PIM Version.vi"/>
 				</Item>
 				<Item Name="Simulator" Type="Folder">
+					<Item Name="Simulator PIM Release Notes.txt" Type="Document" URL="../source/drivers/PIM/Simulator/Simulator PIM Release Notes.txt"/>
 					<Item Name="Simulator PIM Config.vit" Type="VI" URL="../source/drivers/PIM/Simulator/Simulator PIM Config.vit"/>
 					<Item Name="Simulator PIM.vit" Type="VI" URL="../source/drivers/PIM/Simulator/Simulator PIM.vit"/>
-					<Item Name="Simulator PIM Release Notes.txt" Type="Document" URL="../www/drivers/PIM/Simulator/Simulator PIM Release Notes.txt"/>
 					<Item Name="Simulator PIM Version.vi" Type="VI" URL="../source/drivers/PIM/Simulator/LIB/Simulator PIM Version.vi"/>
 				</Item>
 			</Item>
 			<Item Name="VNA" Type="Folder">
 				<Item Name="Agilent" Type="Folder">
-					<Item Name="Agilent VNA Release Notes.txt" Type="Document" URL="../www/drivers/VNA/Agilent/Agilent VNA Release Notes.txt"/>
+					<Item Name="Agilent VNA Release Notes.txt" Type="Document" URL="../source/drivers/VNA/Agilent/Agilent VNA Release Notes.txt"/>
 					<Item Name="Agilent VNA Config.vit" Type="VI" URL="../source/drivers/VNA/Agilent/Agilent VNA Config.vit"/>
 					<Item Name="Agilent VNA.vit" Type="VI" URL="../source/drivers/VNA/Agilent/Agilent VNA.vit"/>
 					<Item Name="Agilent VNA Version.vi" Type="VI" URL="../source/drivers/VNA/Agilent/LIB/Agilent VNA Version.vi"/>
 				</Item>
 				<Item Name="Anritsu" Type="Folder">
-					<Item Name="Anritsu VNA Release Notes.txt" Type="Document" URL="../www/drivers/VNA/Anritsu/Anritsu VNA Release Notes.txt"/>
+					<Item Name="Anritsu VNA Release Notes.txt" Type="Document" URL="../source/drivers/VNA/Anritsu/Anritsu VNA Release Notes.txt"/>
 					<Item Name="Anritsu VNA Config.vit" Type="VI" URL="../source/drivers/VNA/Anritsu/Anritsu VNA Config.vit"/>
 					<Item Name="Anritsu VNA.vit" Type="VI" URL="../source/drivers/VNA/Anritsu/Anritsu VNA.vit"/>
 					<Item Name="Anritsu VNA Version.vi" Type="VI" URL="../source/drivers/VNA/Anritsu/LIB/Anritsu VNA Version.vi"/>
 				</Item>
 				<Item Name="Rohde &amp; Schwarz" Type="Folder">
-					<Item Name="Rohde &amp; Schwarz VNA Release Notes.txt" Type="Document" URL="../www/drivers/VNA/Rohde &amp; Schwarz/Rohde &amp; Schwarz VNA Release Notes.txt"/>
+					<Item Name="Rohde &amp; Schwarz VNA Release Notes.txt" Type="Document" URL="../source/drivers/VNA/Rohde &amp; Schwarz/Rohde &amp; Schwarz VNA Release Notes.txt"/>
 					<Item Name="Rohde &amp; Schwarz VNA Config.vit" Type="VI" URL="../source/drivers/VNA/Rohde &amp; Schwarz/Rohde &amp; Schwarz VNA Config.vit"/>
 					<Item Name="Rohde &amp; Schwarz VNA.vit" Type="VI" URL="../source/drivers/VNA/Rohde &amp; Schwarz/Rohde &amp; Schwarz VNA.vit"/>
 					<Item Name="Rohde &amp; Schwarz VNA Version.vi" Type="VI" URL="../source/drivers/VNA/Rohde &amp; Schwarz/LIB/Rohde &amp; Schwarz VNA Version.vi"/>
 				</Item>
 				<Item Name="Simulator" Type="Folder">
-					<Item Name="Simulator VNA Release Notes.txt" Type="Document" URL="../www/drivers/VNA/Simulator/Simulator VNA Release Notes.txt"/>
+					<Item Name="Simulator VNA Release Notes.txt" Type="Document" URL="../source/drivers/VNA/Simulator/Simulator VNA Release Notes.txt"/>
 					<Item Name="Simulator VNA Config.vit" Type="VI" URL="../source/drivers/VNA/Simulator/Simulator VNA Config.vit"/>
 					<Item Name="Simulator VNA.vit" Type="VI" URL="../source/drivers/VNA/Simulator/Simulator VNA.vit"/>
 					<Item Name="Simulator VNA Version.vi" Type="VI" URL="../source/drivers/VNA/Simulator/LIB/Simulator VNA Version.vi"/>
@@ -67,14 +69,14 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="PIM" Type="Folder">
-				<Item Name="PIM Release Notes.txt" Type="Document" URL="../www/tests/PIM/PIM Release Notes.txt"/>
+				<Item Name="PIM Release Notes.txt" Type="Document" URL="../source/tests/PIM/PIM Release Notes.txt"/>
 				<Item Name="PIM.vit" Type="VI" URL="../source/tests/PIM/PIM.vit"/>
 				<Item Name="PIM Configuration.vi" Type="VI" URL="../source/tests/PIM/PIM Configuration.vi"/>
 				<Item Name="PIM Storage.vit" Type="VI" URL="../source/tests/PIM/PIM Storage.vit"/>
 				<Item Name="PIM Version.vi" Type="VI" URL="../source/tests/PIM/LIB/PIM Version.vi"/>
 			</Item>
 			<Item Name="Prompt" Type="Folder">
-				<Item Name="Prompt Release Notes.txt" Type="Document" URL="../www/tests/Prompt/Prompt Release Notes.txt"/>
+				<Item Name="Prompt Release Notes.txt" Type="Document" URL="../source/tests/Prompt/Prompt Release Notes.txt"/>
 				<Item Name="Prompt.vit" Type="VI" URL="../source/tests/Prompt/Prompt.vit"/>
 				<Item Name="Prompt Configuration.vi" Type="VI" URL="../source/tests/Prompt/Prompt Configuration.vi"/>
 				<Item Name="Prompt Version.vi" Type="VI" URL="../source/tests/Prompt/LIB/Prompt Version.vi"/>
@@ -244,7 +246,6 @@
 			<Item Name="DelTaskbarIcon.vi" Type="VI" URL="../Summitek/Win32/WinSHELL/DelTaskbarIcon.vi"/>
 			<Item Name="DestroyIcon.vi" Type="VI" URL="../Summitek/Win32/WinSHELL/DestroyIcon.vi"/>
 			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../OpenG/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-			<Item Name="Client Download and Print PDF.vi" Type="VI" URL="../source/client.lib/Client Download and Print PDF.vi"/>
 			<Item Name="Taskbar Cleanup.vi" Type="VI" URL="../source/client.lib/Taskbar Cleanup.vi"/>
 			<Item Name="Taskbar Setup.vi" Type="VI" URL="../source/client.lib/Taskbar Setup.vi"/>
 			<Item Name="siwutil32.ctl" Type="VI" URL="../Summitek/Win32/SIWUTIL32/siwutil32.ctl"/>
@@ -256,7 +257,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="S Parameter.rtm" Type="Document" URL="../source/tests/S Parameter/Test Panel/S Parameter.rtm"/>
 			<Item Name="Odbc32.dll" Type="Document" URL="Odbc32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1313,47 +1313,42 @@
 				<Property Name="App_fileVersion.minor" Type="Int">3</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{3880A15A-00DF-4308-84B8-50C37941D0B2}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A00820BD-3AF0-40DE-8E91-4F1625DCC046}</Property>
-				<Property Name="App_INI_itemID" Type="Ref"></Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3BCC2185-063E-40B4-A2FC-A19502A55145}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Spartan Client</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../SPARTAN BUILT/www/client</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/dist</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A3E807BC-1539-4086-AA26-D41892E9CFC2}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Spartan Client.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../SPARTAN BUILT/www/client/Spartan Client.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/dist/Spartan Client.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../SPARTAN BUILT/www/client</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/dist</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{E0E5EFE8-3BA4-46A6-89C4-A18253218096}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/client/Spartan Client.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86D905C2-B0E0-453D-84C0-BB7D2FAB2271}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/client/Spartan Client.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/client/Client Download and Print PDF.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/client/LVWUtil32.dll</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].newName" Type="Str">Spartan Client Uninstall.lnk</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/client/Spartan Client EULA.rtf</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/client/Spartan Client Uninstall</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Summitek Instruments</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Spartan Client</Property>
 				<Property Name="TgtF_fileVersion.build" Type="Int">59</Property>
@@ -1377,27 +1372,23 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../SPARTAN BUILT/www/client</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/dist</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81D1CE40-514E-4151-89A7-1A7C0752F15B}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Spartan Client Stop.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../SPARTAN BUILT/www/client/Spartan Client Stop.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/dist/Spartan Client Stop.exe</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../SPARTAN BUILT/www/client</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/dist</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{893B2CD7-0AAC-4E2A-ADF3-73F902AB6FB4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{86D905C2-B0E0-453D-84C0-BB7D2FAB2271}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/client/Stop Client.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Summitek Instruments</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Spartan Client Stop</Property>

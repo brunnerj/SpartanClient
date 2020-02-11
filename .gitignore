@@ -6,3 +6,5 @@
 .aliases
 .lvlps
 
+# built exe's
+dist
