@@ -1392,7 +1392,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Summitek Instruments</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Spartan Client Stop</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">83</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">84</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">5</Property>
 				<Property Name="TgtF_fileVersion.minor" Type="Int">4</Property>
 				<Property Name="TgtF_internalName" Type="Str">Spartan Client Stop</Property>
@@ -1412,38 +1412,37 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{5ECC8FF1-BCAD-4197-9C95-4E94E2A6AB6D}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{1D78A81A-58D9-46F7-BFF6-ADF7247803F9}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{6AD6C111-233B-4924-A3BF-E4813FE23C7A}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{85BA3FCF-AA00-4151-B97D-84A221E8198A}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 5.0.3</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{17EF98AB-54E8-48A7-A0DD-A8A4366E92B2}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-VISA Runtime 15.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_Deployable_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{9EEA4977-878D-4ECA-8DF2-7C8BF37AE5B9}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 2.8.1</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{766303A5-3C5D-440F-9577-3DE160F84F6F}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 3.1.2</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{9A4754D5-E531-47C1-8EDC-26A34D538138}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI Measurement &amp; Automation Explorer 5.3.1</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{804C0CF0-A72E-4E6E-AF02-733E8B7BFE7C}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI Measurement &amp; Automation Explorer 15.0</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">Kaelus</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../SPARTAN BUILT/www</Property>
+				<Property Name="INST_buildLocation" Type="Path">../SpartanClient/dist</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Spartan Client Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3DB76A31-ECD2-4467-968A-74FEBB00B6B1}</Property>
 				<Property Name="INST_includeError" Type="Bool">false</Property>
 				<Property Name="INST_productName" Type="Str">Spartan Client</Property>
-				<Property Name="INST_productVersion" Type="Str">5.5.49</Property>
+				<Property Name="INST_productVersion" Type="Str">5.5.50</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Kaelus Inc.</Property>
 				<Property Name="MSI_arpPhone" Type="Str">(303) 768-8080</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.Kaelus.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{B0EEB0AA-DF9B-422B-B0D1-6BB82D11BA7A}</Property>
-				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{36E47916-4154-4593-AC61-D6B3CA33F44D}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">This program is installed on test stations to facilitate communications between the Spartan server and instruments connected to the test station.
@@ -1478,18 +1477,10 @@
 				<Property Name="Source[1].File[0].Shortcut[2].subDir" Type="Str"></Property>
 				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">3</Property>
 				<Property Name="Source[1].File[0].tag" Type="Str">{40371586-51BD-43E3-A685-653E1608E22E}</Property>
-				<Property Name="Source[1].File[1].dest" Type="Str">{3DB76A31-ECD2-4467-968A-74FEBB00B6B1}</Property>
-				<Property Name="Source[1].File[1].name" Type="Str">Spartan Client Uninstall.lnk</Property>
 				<Property Name="Source[1].File[1].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[1].File[1].Shortcut[0].name" Type="Str">Spartan Client Uninstall</Property>
 				<Property Name="Source[1].File[1].Shortcut[0].subDir" Type="Str">Kaelus\Spartan QMS</Property>
-				<Property Name="Source[1].File[1].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[1].File[1].tag" Type="Ref"></Property>
-				<Property Name="Source[1].File[2].dest" Type="Str">{3DB76A31-ECD2-4467-968A-74FEBB00B6B1}</Property>
-				<Property Name="Source[1].File[2].name" Type="Str">siwutil32.dll</Property>
-				<Property Name="Source[1].File[2].RegCOM" Type="Bool">true</Property>
-				<Property Name="Source[1].File[2].tag" Type="Ref"></Property>
-				<Property Name="Source[1].FileCount" Type="Int">3</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
 				<Property Name="Source[1].name" Type="Str">Spartan Client</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Spartan Client</Property>
 				<Property Name="Source[1].type" Type="Str">EXE</Property>
